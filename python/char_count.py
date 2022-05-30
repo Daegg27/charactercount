@@ -52,7 +52,7 @@ def char_count(test_string):
     print(final_list)
     
     
-    return sorted(final_list, key=lambda x : (x[1], x[0]))
+    return sorted(final_list, key=lambda x : (-x[1], x[0]))
 
 
-char_count("idsaddfa")
+# char_count("idsaddfa")
